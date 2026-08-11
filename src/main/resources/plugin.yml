@@ -1,0 +1,16 @@
+name: HexoriaItems
+version: 0.1.0
+main: br.hexoria.items.HexoriaItems
+api-version: '1.21'
+author: Hexoria Network
+description: Custom items framework for Java and Geyser Bedrock players.
+commands:
+  hexitems:
+    description: Manage Hexoria custom items.
+    usage: /hexitems <give|list|reload|info>
+    aliases: [hitems]
+    permission: hexoriaitems.admin
+permissions:
+  hexoriaitems.admin:
+    description: Allows administration of HexoriaItems.
+    default: op
