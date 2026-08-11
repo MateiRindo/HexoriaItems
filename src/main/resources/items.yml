@@ -1,0 +1,22 @@
+# HexoriaItems custom item registry
+# model-data will later map to the Java/Bedrock resource packs.
+items:
+  void_blade:
+    material: NETHERITE_SWORD
+    name: "<dark_purple>Espada do Void"
+    lore:
+      - "<gray>Uma lâmina criada nas profundezas."
+      - ""
+      - "<light_purple>✦ Raridade: LENDÁRIA"
+    custom-model-data: 10001
+    max-stack-size: 1
+
+  ancient_fragment:
+    material: AMETHYST_SHARD
+    name: "<light_purple>Fragmento Ancient"
+    lore:
+      - "<gray>Um fragmento de energia misteriosa."
+      - ""
+      - "<aqua>✦ Item especial Hexoria"
+    custom-model-data: 10002
+    max-stack-size: 64
