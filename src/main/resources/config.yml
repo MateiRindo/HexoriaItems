@@ -1,0 +1,10 @@
+# HexoriaItems configuration
+prefix: "<gradient:#7B2CFF:#00C6F9>HexoriaItems</gradient> <dark_gray>»</dark_gray> "
+
+# Custom item definitions are loaded from items.yml.
+items-file: items.yml
+
+# Future Geyser integration settings.
+geyser:
+  enabled: true
+  bedrock-resource-pack: true
